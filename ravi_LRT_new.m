@@ -1,8 +1,8 @@
-function[xx,yy] = ravi_LRT_new(Y)
+function[xx, yy] = ravi_LRT_new(Y)
 
 deltaP=15; deltaN=-13;
 
-nx=5; ny=5; % (2nx+1).(2ny+1) neighborhood size
+nx=4; ny=4; % (2nx+1).(2ny+1) neighborhood size
  
 Y=Y(:,:,2);
 
